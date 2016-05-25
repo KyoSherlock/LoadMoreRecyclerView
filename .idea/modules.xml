@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LoadMoreRecyclerView.iml" filepath="$PROJECT_DIR$/LoadMoreRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoadMoreRecyclerView-library/LoadMoreRecyclerView-library.iml" filepath="$PROJECT_DIR$/LoadMoreRecyclerView-library/LoadMoreRecyclerView-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoadMoreRecyclerView-sample/LoadMoreRecyclerView-sample.iml" filepath="$PROJECT_DIR$/LoadMoreRecyclerView-sample/LoadMoreRecyclerView-sample.iml" />
+    </modules>
+  </component>
+</project>
