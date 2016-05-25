@@ -56,7 +56,7 @@ You can customize footer layout.
 	}
 ```
 # Dependencies
-[GroupAdapter](https://github.com/KyoSherlock/GroupAdapter)
+[GroupAdapter](https://github.com/KyoSherlock/GroupAdapter) A specialized RecyclerView.Adapter that presents data from a sequence of RecyclerView.Adapter. 
 
 # Changelog
 
