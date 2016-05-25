@@ -2,7 +2,7 @@
 
 LoadMore RecyclerView with loading message showing at bottom. It's endless refresh, not pullup refresh.
 
-![](https://github.com/KyoSherlock/LoadMoreRecyclerView/raw/master/screenshots//loadmore_screenshot.gif)
+![](https://github.com/KyoSherlock/LoadMoreRecyclerView/raw/master/screenshot//loadmore_screenshot.gif)
 
 # Usage
 
