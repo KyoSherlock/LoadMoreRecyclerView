@@ -6,7 +6,7 @@ LoadMore RecyclerView with loading message showing at bottom. It's endless refre
 
 # Usage
 
-We can set OnLoadMoreListener to listen the LoadMore action.
+It provide a OnLoadMoreListener.
 
 ```java
 	loadMoreRecyclerView.setOnLoadMoreListener(new LoadMoreRecyclerView.OnLoadMoreListener() {
@@ -16,13 +16,13 @@ We can set OnLoadMoreListener to listen the LoadMore action.
 		}
 	});
 ```
-After background work, we must finish loading UI.
+You can finish loading UI after background work.
 
 ```java
 	loadMoreRecyclerView.finishLoading();
 	loadMoreRecyclerView.finishLoading(errorMessage); // or some error
 ```
-Usually we want to build a custom footer layout, we can implement the LoadMorePresenter that provides the loading and eorror UI.
+You can customize footer layout.
 
 ```java
 	static class SimpleLoadMorePresenter extends LoadMorePresenter {
@@ -54,8 +54,6 @@ Usually we want to build a custom footer layout, we can implement the LoadMorePr
 			message.setText(msg);
 		}
 	}
-	// set the Presenter to LoadMoreRecyclerView
-	loadMoreRecyclerView.setLoadMorePresenter(new SimpleLoadMorePresenter(retryListener));
 ```
 # Dependencies
 [GroupAdapter](https://github.com/KyoSherlock/GroupAdapter)
