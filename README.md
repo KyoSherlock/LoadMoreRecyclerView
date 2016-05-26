@@ -1,6 +1,6 @@
 # LoadMoreRecyclerView 
 
-LoadMore RecyclerView with loading message showing at bottom. It's endless refresh, not pullup refresh.
+LoadMore RecyclerView with loading message showing at bottom. It refreshes data at scroll end, not pullup.
 
 ![](https://github.com/KyoSherlock/LoadMoreRecyclerView/raw/master/screenshot//loadmore_screenshot.gif)
 
